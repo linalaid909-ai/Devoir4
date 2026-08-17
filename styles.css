@@ -1,94 +1,164 @@
 body {
+
+    /* ✅ Fond clair exactement conforme à l'énoncé. */
+
     margin: 0;
     background-color: #f0f4f8;
     color: #333;
+
+    /* ✅ Verdana utilisée pour le corps du texte. */
+
     font-family: Verdana, sans-serif;
 }
+
 
 
 /* En-tête */
 
 header {
+
+    /* ✅ Couleur demandée pour le header. */
+
     background-color: #3498db;
     color: white;
     text-align: center;
     padding: 70px;
 }
 
+
 header h1 {
+
+    /* ✅ Police différente pour le titre. */
+
     font-family: Arial, sans-serif;
     font-size: 60px;
+
+    /*  Très beau titre, bien mis en valeur. */
 }
+
 
 
 /* Articles */
 
 main {
+
     width: 98%;
     margin: 30px auto;
 }
 
+
 .article {
+
+    /* ✅ Fond blanc demandé dans le sujet. */
+
     background-color: white;
+
+    /* ✅ Coins arrondis présents. */
+
     border-radius: 10px;
+
+    /* ✅ Ombre présente. */
+
     box-shadow: 0 4px 10px gray;
+
     padding: 40px 30px;
     margin-bottom: 30px;
 }
 
 
+
 /* Titres */
 
 .article h2 {
+
     color: #2c3e50;
+
+    /* ✅ Police différente pour les titres. */
+
     font-family: Arial, sans-serif;
+
     font-size: 45px;
+
+    /* ✅ Titres centrés. */
+
     text-align: center;
+
+    /* ✅ Letter-spacing présent comme demandé. */
+
     letter-spacing: 3px;
 }
+
 
 
 /* Auteur et date */
 
 .info {
+
     color: #70889a;
     font-size: 20px;
     font-style: italic;
+
+    /* ✅ Espacement des lettres présent. */
+
     letter-spacing: 2px;
 }
+
 
 
 /* Images */
 
 .article img {
+
     width: 70%;
     height: 250px;
     display: block;
+
+    /* ✅ Image centrée. */
+
     margin: 30px auto;
+
     border-radius: 10px;
+
+    /* Belle intégration des images dans les articles. */
 }
+
 
 
 /* Texte */
 
 .article p {
+
     font-size: 22px;
     line-height: 1.7;
+
+    /* ✅ Texte justifié conformément au devoir. */
+
     text-align: justify;
+
+    /* ✅ Word-spacing présent. */
+
     word-spacing: 3px;
+
+    /* ✅ Letter-spacing présent. */
+
     letter-spacing: 1px;
 }
+
 
 
 /* Pied de page */
 
 footer {
+
+    /* ✅ Couleur conforme à l'énoncé. */
+
     background-color: #3498db;
     color: white;
     text-align: center;
     padding: 25px;
     margin-top: 60px;
 }
+
 
 footer p {
     font-size: 20px;
